@@ -1,0 +1,9 @@
+<client-requests>
+  <client-request>
+    <email>james@miuraglobal.com</email>
+    <exchange>BOVESPA</exchange>
+    <ticker>ITAU3</ticker>
+    <desired-language>English</desired-language>
+    <delivery-type>EndOfDay</delivery-type>
+  </client-request>
+</client-requests>

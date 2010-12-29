@@ -1,0 +1,41 @@
+
+** Compiling Scala
+ mkdir classes
+ scalac -d classes HelloWorld.scala
+ scala -classpath classes HelloWorld
+
+** Tutorials
+
+http://code.google.com/p/sweetscala/wiki/JdbcHelper
+
+http://projecteuler.net/index.php?section=problems
+
+http://www.ibm.com/developerworks/java/library/j-scala12228.html
+
+http://sean8223.blogspot.com/2009/09/xsd-validation-in-scala.html
+
+http://blog.spiralarm.com/richard/2009/05/still-loving-scala.html
+
+** Busy Scala series
+
+http://www.ibm.com/developerworks/views/java/libraryview.jsp?search_by=scala+neward
+http://www.ibm.com/developerworks/java/library/j-scala06278.html
+
+* sbt
+
+Scala version [2.7.7]: mb:foo melling$ ~/bin/sbt
+Project does not exist, create new project? (y/N/s) y
+Name: web1
+Organization: h4
+Version [1.0]: 
+Scala version [2.7.7]: 2.8.0.RC6
+sbt version [0.7.4]: 
+Getting Scala 2.7.7 ...
+
+++2.8.0.RC6 console-quick
+
+* Getting Started
+
+** Install sbt
+
+http://www.paulbutcher.com/2010/04/scala-2-8-0-rc1-sbt-and-scalatest-step-by-step/
