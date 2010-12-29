@@ -11,9 +11,9 @@ import scala.dbc.syntax.Statement._
 import java.net.URI
 
 object MysqlVendor extends Vendor {
-  val uri = new URI("jdbc:mysql://qa:3306/cig")
-  val user = "cig_user"
-  val pass = "h4isql"
+  val uri = new URI("jdbc:mysql://qa:3306/dbname")
+  val user = ""
+  val pass = ""
 
   val retainedConnections = 5
   val nativeDriverClass = Class.forName("com.mysql.jdbc.Driver")
