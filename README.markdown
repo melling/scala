@@ -26,18 +26,25 @@
 
 ## Web
 + <http://java.dzone.com/articles/my-first-scala-servlet-eclipse>
++ <http://www.ibm.com/developerworks/java/library/j-scala12228.html>
 
 ## Google AppEngine
 
 + <http://www.scala-lang.org/node/1826>
 + <http://avityuk.blogspot.com/2010/06/running-appengine-scala.html>
 + <http://mawson.wordpress.com/2009/04/10/first-steps-with-scala-on-google-app-engine>
++ <http://www.vogella.de/articles/GoogleAppEngineJava/article.html#todo_servlets>
++ <https://github.com/Yasushi/sbt-appengine-plugin>
 
 ## Android
 
 + <http://chneukirchen.org/blog/archive/2009/04/programming-for-android-with-scala.html>
 + <http://stackoverflow.com/questions/476111/scala-programming-for-android>
 + <http://vimeo.com/10368244>
+
+## H2 Database
+
+http://www.h2database.com/skein/Test.scala
 
 ## Misc
 + <http://aperiodic.net/phil/scala/s-99>
