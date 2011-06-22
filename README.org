@@ -1,0 +1,23 @@
+
+* 
+
+val l = List(1,2,3,4)
+l.permutations.foreach(println)
+
+*
+
+def f = 3
+def g = f _ // prevent eval of f()
+def g() = f // Assign function
+def g = f // error
+ 
+
+* Case Classes
+
+** Can omit val usage: class Noun(val word: String, val gender: String) 
+
+case class Noun(word: String, gender: String)
+val w = Noun("hombre", "el")
+println(w)
+println(w.word)
+println(w.gender)
