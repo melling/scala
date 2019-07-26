@@ -15,7 +15,7 @@ object companylist {
     <th>Name</th>
     <th>Age</th>
     </tr>
-    { for (val p <- people) yield
+    { for (p <- people) yield
       <tr>
      <td>{ p.exchange }</td>
      <td>{ p.ticker }</td>
