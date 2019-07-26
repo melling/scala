@@ -1,5 +1,5 @@
 object Main {
-  def main(args: Array[String]) {
+  def main(args: Array[String]):Unit = {
     try {
       val elems = args map Integer.parseInt
       println("The sum of my arguments is: " + elems.foldRight(0) (_ + _))
