@@ -28,8 +28,8 @@ object BulkUploadRunner extends Application {
   val rows = db.executeStatement {
     select fields ("spanish_verb" of characterVarying(30)) from ("import_verbs")
   }
-  for (val r <- rows;
-       val f <- r.fields) {
+  for (r <- rows;
+       f <- r.fields) {
     Console.println(f.content.nativeValue) // or .sqlValue
   }
 
